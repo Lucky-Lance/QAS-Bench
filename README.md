@@ -62,11 +62,11 @@ The circuits and calculated losses will be saved in ```result.pkl```.
 
 ### Other baselines
 
-Reinforcement learning method is based on <a herf="https://github.com/mostaszewski314/RL_for_optimization_of_VQE_circuit_architectures">this link</a>.
+Reinforcement learning method is based on <a href="https://github.com/mostaszewski314/RL_for_optimization_of_VQE_circuit_architectures">this link</a>.
 
-Hybrid Algorithm is based on <a herf="https://github.com/yuxuan-du/Quantum_architecture_search">this link</a>.
+Hybrid Algorithm is based on <a href="https://github.com/yuxuan-du/Quantum_architecture_search">this link</a>.
 
-Differentiable Algorithm is based on <a herf="https://tensorcircuit.readthedocs.io/en/latest/tutorials/dqas.html">this link</a>.
+Differentiable Algorithm is based on <a href="https://tensorcircuit.readthedocs.io/en/latest/tutorials/dqas.html">this link</a>.
 
 
 ## Citation
