@@ -145,7 +145,7 @@ def get_args(argv):
     return args
 
 def valid_loss(vecx,vecy):
-    return torch.sum(torch.abs(vecx)*torch.abs(vecy))
+    return torch.sum(torch.abs(vecx)*torch.abs(vecy)) ** 2
 
 def valid(Best_Circuit,qubit_num,valid_data):
     U=pks_List_to_Matrix(Best_Circuit,qubit_num)
