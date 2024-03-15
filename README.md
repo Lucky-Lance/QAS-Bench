@@ -3,7 +3,7 @@
 
 ## Datasets
 
-You can download the dataset provided in thie paper at <a href='https://drive.google.com/drive/folders/1H4McsQkDzruVmYyhd2PaEep35C49LriB?usp=sharing'>this link</a>. The format of the dataset is as follows:
+You can download the dataset provided in this paper at <a href='https://drive.google.com/drive/folders/1H4McsQkDzruVmYyhd2PaEep35C49LriB?usp=sharing'>this link</a>. The format of the dataset is as follows:
 
 ```
 .
@@ -38,7 +38,7 @@ python task1/Anneal/Anneal.py --qubit_num 2 --layer_num 4 --matrix_path data/tas
 The circuits and calculated losses will be saved in ```result.pkl```.
 
 
-### For Task2, the necessary inputs are qubit_num,layer_num,matrix_path,output_path.
+### For Task2, the necessary inputs are qubit_num, layer_num, matrix_path, output_path.
 
 The code can be called as follows:
 
@@ -62,7 +62,7 @@ The circuits and calculated losses will be saved in ```result.pkl```.
 
 ### Other baselines
 
-Reinforcement learning method is based on <a href="https://github.com/mostaszewski314/RL_for_optimization_of_VQE_circuit_architectures">this link</a>.
+Reinforcement Learning method is based on <a href="https://github.com/mostaszewski314/RL_for_optimization_of_VQE_circuit_architectures">this link</a>.
 
 Hybrid Algorithm is based on <a href="https://github.com/yuxuan-du/Quantum_architecture_search">this link</a>.
 
