@@ -25,14 +25,14 @@ We provide our source code for task1 and task2, containing our designed search a
 
 The code can be called as follows:
 ```
-python baseline/task1/Genetic/Genetic.py --qubit_num 2 --layer_num 4 --matrix_path data/task1/1bit/matrix_dense1_task0.pkl --output_path result.pkl
+python task1/Genetic/Genetic.py --qubit_num 2 --layer_num 4 --matrix_path data/task1/1bit/matrix_dense1_task0.pkl --output_path result.pkl
 ```
 
 ```
-python baseline/task1/Search/Search.py --qubit_num 2 --layer_num 4 --matrix_path data/task1/1bit/matrix_dense1_task0.pkl --output_path result.pkl
+python task1/Search/Search.py --qubit_num 2 --layer_num 4 --matrix_path data/task1/1bit/matrix_dense1_task0.pkl --output_path result.pkl
 ```
 ```
-python baseline/task1/Anneal/Anneal.py --qubit_num 2 --layer_num 4 --matrix_path data/task1/1bit/matrix_dense1_task0.pkl --output_path result.pkl
+python task1/Anneal/Anneal.py --qubit_num 2 --layer_num 4 --matrix_path data/task1/1bit/matrix_dense1_task0.pkl --output_path result.pkl
 ```
 
 The circuits and calculated losses will be saved in ```result.pkl```.
@@ -43,17 +43,17 @@ The circuits and calculated losses will be saved in ```result.pkl```.
 The code can be called as follows:
 
 ```
-python baseline/task2/Search/Search.py --qubit_num 3 --layer_num 10 --matrix_path data/task2/3bit_arbit/0/0_train.pkl --output_path result.pkl --valid_path data/task2/3bit_arbit/0/0_valid.pkl 
+python task2/Search/Search.py --qubit_num 3 --layer_num 10 --matrix_path data/task2/3bit_arbit/0/0_train.pkl --output_path result.pkl --valid_path data/task2/3bit_arbit/0/0_valid.pkl 
 ```
 
 
 ```
-python baseline/task2/Genetic/Genetic.py --qubit_num 3 --layer_num 10 --matrix_path data/task2/3bit_arbit/0/0_train.pkl --output_path result.pkl --valid_path data/task2/3bit_arbit/0/0_valid.pkl 
+python task2/Genetic/Genetic.py --qubit_num 3 --layer_num 10 --matrix_path data/task2/3bit_arbit/0/0_train.pkl --output_path result.pkl --valid_path data/task2/3bit_arbit/0/0_valid.pkl 
 ```
 
 
 ```
-python baseline/task2/Anneal/Anneal.py --qubit_num 3 --layer_num 10 --matrix_path data/task2/3bit_arbit/0/0_train.pkl --output_path result.pkl --valid_path data/task2/3bit_arbit/0/0_valid.pkl 
+python task2/Anneal/Anneal.py --qubit_num 3 --layer_num 10 --matrix_path data/task2/3bit_arbit/0/0_train.pkl --output_path result.pkl --valid_path data/task2/3bit_arbit/0/0_valid.pkl 
 ```
 
 
